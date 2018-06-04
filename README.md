@@ -1,21 +1,24 @@
-# PlymioVekil
+# README
 
-**TODO: Add description**
+**plymio\_vekil**: A *vekil* is a collection that associates *proxies with *foroms*.
+
+A *vekil* may be thought of as a dictionary where a *proxy* is a `key`
+and its `value` is a *forom*.
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `plymio_vekil` to your list of dependencies in `mix.exs`:
+Add **plymio\_vekil** to your list of dependencies in *mix.exs*:
 
-```elixir
-def deps do
-  [
-    {:plymio_vekil, "~> 0.1.0"}
-  ]
-end
-```
+    def deps do
+      [{:plymio_vekil, "~> 0.1.0"}]
+    end
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/plymio_vekil](https://hexdocs.pm/plymio_vekil).
+## Examples
 
+See the examples in the [API Reference](<https://hexdocs.pm/plymio_vekil/api-reference.html>).
+
+## Dialyzer Warnings
+
+Running dialyzer will likely give rise to many warnings for built-in
+datatypes with implementations.  See
+[#7708](https://github.com/elixir-lang/elixir/issues/7708)
